@@ -1,0 +1,11 @@
+---
+name: luna_pinyin.extended
+version: "2021.01.01"
+sort: by_wight
+use_preset_vocabulary: true
+
+import_tables:
+    - luna_pinyin	#这个是默认使用的明月拼音，没事别删
+    - luna_pinyin.quanxue   #这个是世界765城市名词库的文件名，以后别的词库也要这样输入进来才有效
+    - luna_pinyin.history   
+    - luna_pinyin.laozi
